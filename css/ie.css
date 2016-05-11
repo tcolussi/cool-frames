@@ -1,0 +1,66 @@
+.profile,
+.alert,
+#main,
+#picture,
+#description,
+.button,
+#frames,
+#overlay,
+#frames ul li,
+#frames ul li img,
+#frames ul li span,
+#steps,
+#steps .number,
+#footer { behavior: url(css/pie.htc); }
+ 
+.profile { -pie-border-radius: 5px; }
+ 
+#main {
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+ 
+#picture {
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+ 
+#description { 
+	-pie-border-radius: 5px; 
+	-pie-background: rgba(0, 0, 0, 0.3);
+}
+ 
+.button { -pie-border-radius: 5px; }
+
+#frames { 
+	-pie-background: rgba(0, 0, 0, 0.2);
+	-pie-border-radius: 5px; 
+}
+
+#overlay { 
+	-pie-background: rgba(0, 0, 0, 0.3);
+	-pie-border-radius: 5px; 
+}
+
+#frames ul li { -pie-border-radius: 5px; }
+
+#frames ul li img { -pie-border-radius: 5px; }
+
+#frames ul li span { 
+	-pie-background: rgba(0, 0, 0, 0.5);
+	-pie-border-radius: 5px; 
+}
+
+.alert { -pie-border-radius: 5px; }
+ 
+#steps {
+	-pie-background: rgba(255, 255, 255, 0.1);
+	-pie-border-radius: 5px;
+}
+ 
+#steps .number {
+	-pie-background: rgba(0, 0, 0, 0.3);
+	-pie-border-radius: 50%; 
+}
+ 
+#footer { -pie-background: rgba(0, 0, 0, 0.4); }
